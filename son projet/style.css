@@ -1,0 +1,175 @@
+ /* GENERAL */
+ *{
+	margin: 0;
+	padding: 0;
+} 
+body{
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+}
+h2{
+	color: blue;
+	text-align: center;
+}
+p{
+	text-align: center;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding: 20px;
+}
+#marquee{
+	font-size: 15px;
+	color: orange;
+}
+
+ /* HEADER */
+
+ .form{
+ 	float: right;
+ 	margin-right: 20px;
+ 	
+ }
+ 
+ header h1{
+ 	margin-top: 10px;
+ 	margin-left:  20px;
+ }
+header nav{
+	margin-left: 200px;
+	display: inline-block;
+	margin-top: 30px;
+
+}
+header nav ul li{
+	float: left;
+	display: inline-block;
+	border: solid: 1px black;
+
+}
+header nav ul li a{
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+/* img */
+img{
+	width: 100%;
+	height: 399px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+.slider{
+	width: 100%;
+	height: 400px;
+	
+	box-shadow: 5px 5px 10px grey;
+	margin: 20px auto;
+}
+img h2{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 150px 0 40px 0;
+	margin-bottom: 20px;
+}
+
+/* possibilities */
+
+#possibilities{
+	background-color: #efefef;
+	padding: 60px 0;
+	display: inline-block;
+	width: 100%;
+	height: 195px;
+	text-align: center;
+	padding-bottom: 140px;
+
+}
+#possibilities article{
+	width: 360px;
+	height: 270px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+}
+
+#possibilities p{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.overlay{
+	background: rgba(255,255,255,0.75);
+	height: 100%;
+	width:190px;
+	
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+}
+article h4{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+/* RESERVATION */
+
+#reservation{
+	padding: 60px 0;
+	text-align: center;
+}
+#reservation h3{
+	width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 10px;
+}
+.noms et prenoms{
+	margin-left: 20px;
+}
+form{
+	margin: 60px 0 20px 0;
+	padding-top: 10px;
+}
+label{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd
+    border-radius: 3px;
+}
+
+ /* FOOTER */
+footer{
+	height: 260px;
+	background-color: #444;
+}
+footer h1{
+	color: #fff;
+	text-align: center;
+	padding-top: 90px;
+}
+footer p{
+	font-size: 20px;
+	color: orange;
+}
+.copyright{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+	color: #777;
+}

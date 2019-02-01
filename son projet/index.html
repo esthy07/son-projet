@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site touristique</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+		<h1>Shammah Tourisme ☺</h1>
+		
+		<div class="wrapper">
+			
+				<div class="form">
+					
+					<input type="text" placeholder="recherche">
+					<input type="button" value="ok">
+					<select>
+						<option value="">francais</option>
+						<option>anglais</option>
+					</select>
+				</div>
+
+				<nav>
+				<ul>
+					<li><a href="#main-image">Acceuil</a></li>
+					<li><a href="#steps">Hotels et Reservations</a></li>
+					<li><a href="#possibilities">Services</a></li>
+					<li><a href="#contact">Forfaits</a></li>
+					<li><a href="#steps">Evenements</a></li>
+					<li><a href="#contact">Contacts</a></li>
+				</ul>
+
+	
+			</nav>
+		</div>
+
+	</header>		
+
+	<div class="slider">
+		
+		<div id="img">
+			<img src="e.jpg" alt="" height="140" width="100">
+				
+		</div>
+	</div>
+
+	<!-- add javascript -->
+
+	<script>
+		
+		var img = document.getElementById('img');
+
+		var images = ['a.jpg', 'b.png', 'c.jpg', 'e.jpg'];
+
+		var x = 0;
+
+		function slide(){
+			if(x>images.lengh) {
+
+				x = x+1;
+
+			}else{
+				x = 1;
+			}
+
+			img.innerHTML = "<img src="+images[x-1]+">"
+		}
+
+		// auto slide
+
+		setInterval(slide, 2000);
+	</script>
+   <marquee>Explorer la cote d'ivoire dans la gaieté et la joie avec Shammah Tourisme☺</marquee>
+
+	<h2>Akwaba à Shammah Tourisme ☺</h2>
+	<p>Shammah Tourisme est un site de Tourisme qui vous ouvre les portes de la Cote d'ivoire. <br> Venez partagez l'experience touristique le plus fabuleux de toute la planète.<br> Que vous soyez en familles, avec des amis ou solo, profitez de nos meilleures offres et partez a l'aventure avec la culture ivoirienne!!!</p>
+
+<section id="possibilities">
+		<div class="wrapper">
+			<article style="background-image: url(images/article-image-1.jpg);">
+			<div class="overlay">
+				<h4>A table! Mangez Ivoirien☻</h4>
+				<p><small>Prenez plaisir à deguster les mets ivoiriens avec vos proches. Decouvrez la cuisine ivoirienne dans toute son entiereté.</small></p>
+			</div>
+			</article>
+
+			<article style="background-image: url(images/article-image-2.jpg);">
+				<div class="overlay">
+					<h4>A la plage</h4>
+					<p><small>Profitez de moment fabuleux et inoubliables en admirant la mer etant assis sous des cocotiers qui vous donne une ombre apaisante.</small></p>
+				</div>
+			</article>
+
+			<article style="background-image: url(images/article-image-3.jpg);">
+				<div class="overlay">
+					<h4>Visite de lieux touristique</h4>
+					<p><small>nous vous proposons des visites inoubliables de lieux incroyables qui ont marqué la vie de la côte d'ivoire.  </small></p>
+				</div>
+			</article>
+		</div>
+	</section>
+
+	<section id="reservation">
+		<div class="wrapper">
+			<h3>Reservez dès maintenant en ligne</h3>
+			<p>Chez shammah Tourisme☺, votre voyage est garantie, sure et fiable...</p>
+
+			<form>
+				<label for="name">Nom et Prenoms</label>
+				<input type="text" id="name" placeholder="Entrez vos noms et prénoms">
+
+				<label for="Email">Email</label>
+				<input type="text" id="email" placeholder="Entrez votre email">
+				<br>
+				<label for="Reservation">Type de reservations</label>
+				<input type="radio" value="solo" name="">Solo
+				&nbsp;
+				<input type="radio" value="famille" name="">Famille
+
+				<input type="submit" value="Valider" class="buttob-3">
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="wrapper">
+
+			<h1>Shammah Tourisme <span class="orange">☺</span></h1>
+			<p>contact:+225 33 777 999</p>
+			<div class="copyright">Copyright © 2016. Tous droits réservés</div>
+    
+            </div>
+
+	</footer>
+</body>
+
+</html>
